@@ -1,0 +1,179 @@
+/* ESTILO */
+
+html {
+  scroll-behavior: smooth; /* Para deslizar suavemente ao clicar nos links */
+}
+
+body {
+  background-image: url('imagens/fundo.jpg'); /* imagem de fundo do site */
+  background-repeat: no-repeat;         
+  background-size: cover;                
+  background-position: center center;   
+}
+
+#site {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+div {
+  margin-top: 5%; /* para gerar espaçamento entre os conteúdos do site */
+}
+
+/* ESTILIZAÇÃO DO MENU FLUTUANTE */
+
+#navMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(16, 81, 167);
+  text-align: center;
+}
+
+#ulMenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;  
+  justify-content: center;
+}
+
+#liMenu {
+  padding: 1.5%;
+}
+
+#aMenu {
+  color: rgb(16, 81, 167);
+  font-weight: bold;
+  padding: 4%;
+  text-decoration: none;
+  font-size: 1.4rem;
+  border: 0.2rem solid white;
+  background-color: white;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+#aMenu:hover {
+  background-color: rgb(16, 81, 167);
+  color: white;
+}
+
+/* AJUSTE DA FOTO NO INICIO DA PAGINA */
+
+#foto img {
+  width: 15%;           
+  height: 15%;          
+  border-radius: 50%;    
+  object-fit: cover;     
+  display: block;        
+  margin: 0 auto;        
+}
+
+/* ESTILIZAÇÃO DO TÍTULO E PARÁGRAFOS */
+
+h1 {
+  color: white;
+  font-weight: bold;
+  padding: 1%;
+  display: inline-block;
+  font-size: 1.4rem;
+  background-color: rgb(16, 81, 167);
+  border-radius: 0.5rem;
+}
+
+#paragrafo {
+    font-size: 1.4rem;
+    color: black;
+    text-indent: 2em;
+    text-align: justify;
+    margin: 0 10%;
+    line-height: 1.8;
+}
+
+/* ESPAÇAMENTO PARA NÃO OCULTAR TÍTULO DO CONTEÚDO QUANDO SCROLL */
+
+#sobre, #formacao, #portifolio, #contato {
+  scroll-margin-top: 3em;
+}
+
+/* ESTILIZAÇÃO DA LISTA FORMAÇÃO */
+
+ul.listas {
+  list-style: none; 
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+/* ESTILIZAÇÃO DA ÁREA DE PROJETOS */
+
+#projeto {
+  color: white;
+  font-weight: bold;
+  padding: 1%;
+  display: inline-block;
+  font-size: 1.4rem;
+  background-color: rgb(16, 81, 167);
+  border-radius: 0.5rem;
+}
+
+#escritaProjeto {
+  margin: 0 0 10% 0;
+  font-size: 1.2rem;
+  color: white;
+}
+
+#botaoprojeto {
+  background-color: white;
+  color: rgb(16, 81, 167);
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 0.4rem;
+}
+
+#botaoprojeto:hover {
+  background-color: rgb(16, 81, 167);
+  color: white;
+  border: 0.2rem solid white;
+}
+
+/* ESTILIZAÇÃO DA ÁREA PARA CONTATO */
+
+#formContato {
+  max-width: 30%;
+  margin: 0 auto;
+  padding: 0 10%;
+}
+
+#labelContato {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+}
+
+#inputContato, #mensagemContato {
+  width: 100%;
+  padding: 1%;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  border-color: rgb(16, 81, 167);
+  background-color: rgb(173, 173, 173);
+}
+
+#botaoContato {
+  background-color: white;
+  color: rgb(16, 81, 167);
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.4rem;
+  border-radius: 0.4rem;
+}
+
+#botaoContato:hover {
+  background-color: rgb(16, 81, 167);
+  color: white;
+  border: 0.2rem solid white;
+}
