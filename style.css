@@ -1,0 +1,109 @@
+/* ESTILO */
+
+html {
+  scroll-behavior: smooth; /* Para deslizar suavemente ao clicar nos links */
+}
+
+body {
+  background-image: url('imagens/fundo.jpg'); /* imagem de fundo do site */
+  background-repeat: no-repeat;         
+  background-size: cover;                
+  background-position: center center;   
+}
+
+#site {
+    height: auto;
+    font: sans-serif;
+    text-align: justify;
+}
+
+div {
+  margin-top: 10%; /* para gerar espaçamento entre os conteúdos do site */
+}
+
+/* ESTILIZAÇÃO DO MENU FLUTUANTE */
+
+#navMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  text-align: center;
+}
+
+#ulMenu {
+  list-style: none;   
+  padding: 0;
+  margin: 0;
+  display: flex;     
+  justify-content: center;
+}
+
+#liMenu, #aMenu {
+  color: white;
+  font-weight: bold;
+  padding: 0.5%;
+  text-decoration: none;
+}
+
+/* ESTILIZAÇÃO DO TÍTULO E PARÁGRAFOS */
+
+h1 {
+    margin-top: 10%;
+    font-size: 2.5rem;
+    text-align: center;
+    color: black;
+}
+
+p {
+    font-size: 1.4rem;
+    color: black;
+    text-indent: 2em;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* ESPAÇAMENTO PARA NÃO OCULTAR TÍTULO DO CONTEÚDO QUANDO SCROLL */
+
+#sobre, #formacao, #portifolio, #contato {
+  scroll-margin-top: 3em;
+}
+
+/* ESTILIZAÇÃO DAS DUAS LISTAS (FORMAÇÃO E PORTIFÓLIO) */
+
+ul.listas {
+  list-style: none; 
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+/* ESTILIZAÇÃO DA ÁREA PARA CONTATO */
+
+#formContato {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: transparent;
+  padding: 0 30px;
+  border-radius: 10px;
+}
+
+#labelContato {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+}
+
+#inputContato, #mensagemContato {
+  width: 100%;
+  padding: 1%;
+  box-sizing: border-box;
+}
+
+#botaoContato {
+  padding: 1rem 2rem;
+  background-color: darkblue;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
